@@ -1,0 +1,29 @@
+.menu-header {
+    margin-left: 10vh;
+    margin-right: 10vh; 
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        height: 60px;
+        cursor: pointer;
+        
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+        font-weight: 600;
+    
+        &:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+}
