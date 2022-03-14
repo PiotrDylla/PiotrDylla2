@@ -12,6 +12,7 @@ import { FifthContainerComponent } from './fifth-container/fifth-container.compo
 import { ImprintComponent } from './imprint/imprint.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { AboutComponent } from './about/about.component';
     ImprintComponent,
     FooterComponent,
     AboutComponent,
+    PrivacyComponent,
     
   ],
   imports: [
