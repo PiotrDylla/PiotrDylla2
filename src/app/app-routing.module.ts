@@ -6,7 +6,7 @@ import { MenuComponent } from './menu/menu.component';
 
 const routes: Routes = [
   { path: '', component: MenuComponent},
-  { path: '/imprint', component: ImprintComponent }
+  { path: 'imprint', component: ImprintComponent }
 
 ];
 
