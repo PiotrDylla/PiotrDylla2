@@ -10,6 +10,7 @@ import { ThirdContainerComponent } from './third-container/third-container.compo
 import { FourthContainerComponent } from './fourth-container/fourth-container.component';
 import { FifthContainerComponent } from './fifth-container/fifth-container.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ImprintComponent } from './imprint/imprint.component';
     FourthContainerComponent,
     FifthContainerComponent,
     ImprintComponent,
+    FooterComponent,
     
   ],
   imports: [

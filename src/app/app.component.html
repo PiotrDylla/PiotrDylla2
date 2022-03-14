@@ -1,12 +1,6 @@
 <app-menu></app-menu>
-<app-first-container></app-first-container>
-<app-second-container></app-second-container>
-<app-third-container></app-third-container>
-<app-fourth-container></app-fourth-container>
-<app-fifth-container></app-fifth-container>
-
-<div [class.container]= "router.url !== '/'">
-    <router-outlet></router-outlet>
-    </div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+    
 
 

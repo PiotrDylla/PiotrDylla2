@@ -61,29 +61,3 @@ label {
         color: white;
     }
 }
-
-.end-of-page {
-    margin-top: 100px;
-    height: 150px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 16px;
-
-}
-
-.imp-privacy {
-    cursor: pointer;
-   
-
-   :hover { color: red;
-   
-   }
-}
-
-.in-git-xing {
-    cursor: pointer;
-
-}
