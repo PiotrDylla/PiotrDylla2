@@ -74,3 +74,40 @@ line-height: 2;
         background-color: rgba(255, 255, 255, 0.1);
     }
 }
+
+@media only screen and (max-width: 900px) {
+    
+    .first-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-size: 30px;
+
+    }
+    
+    }
+
+    .introduce-pic-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .button-down {
+        display: none;
+    }
+    .button-contact{
+        display: flex;
+        justify-content: center;
+
+       
+    }
+ 
+
+}
