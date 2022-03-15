@@ -83,12 +83,22 @@ line-height: 2;
     padding: 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     h1 {
         font-size: 30px;
 
     }
     
+    }
+    .pic-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic {
+        height: 200px;
+        width: 200px;
     }
 
     .introduce-pic-container {
@@ -105,6 +115,7 @@ line-height: 2;
     .button-contact{
         display: flex;
         justify-content: center;
+        padding-top:20px;
 
        
     }
