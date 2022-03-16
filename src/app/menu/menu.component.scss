@@ -4,12 +4,11 @@
     height: 100px;
     padding-top: 20px;
     padding-bottom: 50px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    img {
+}
+    .logo-code {
         height: 60px;
         cursor: pointer;
         
@@ -25,14 +24,41 @@
             color: rgba(255, 255, 255, 0.8);
         }
     }
+        .media-menu {
+            display: none;
+        }
 
-}
+        
+    
+
+
 
 @media only screen and (max-width: 900px) {
     
     .menu-header {
     margin-left: 10px;
     margin-right: 10px;
+    justify-content: space-around;
+    
+    
+    }
+    .logo-code {
+        
+    }
+        
+    
+    a {
+        display: none;
+    }
+
+    .media-menu {
+        display: inline;
+     
+    }
+    #media-menu-icon {
+        
+        width: 50px;
+        cursor: pointer;
     }
 
 }
