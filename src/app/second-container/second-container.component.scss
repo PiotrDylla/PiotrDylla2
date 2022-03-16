@@ -1,11 +1,15 @@
 .second-container {
-    height: 100vh;
-    background-color: #1a1a1a;
    
+    background-color: #1a1a1a;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
+}
+.skills-container {
+    display: flex;
+    flex-direction: column;  
 }
 
 .my-skills {
@@ -41,6 +45,7 @@
 }
 
 .skill-box {
+
     height: 150px;
     width: 250px;
     background-color: white;
@@ -53,14 +58,11 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    
-
-    
-
 
 }
 
 .logo-container {
+
     background-color: white;
     height: 100px;
     width: 100px;
@@ -75,5 +77,39 @@
     img {
         height: 50px;
     }
+}
+
+@media only screen and (max-width: 900px) {
+
+    
+.my-skills {
+margin-bottom: 30px;
+    
+}
+
+   .skill-box {
+       height: 70px;
+       width: 117px;
+       margin: 3px;
+       font-size: 14px;
+   }
+
+   .logo-container {
+       height: 50px;
+       width: 50px;
+       margin: -25px;
+
+       img {
+        height: 25px;
+    }
+   }
+    .logo-skills-container { 
+        margin: 20px 0px 20px 0px;
+    }
+
+
+
+
+
 }
 

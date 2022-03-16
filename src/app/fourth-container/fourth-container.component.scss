@@ -41,7 +41,6 @@
 .trip {
     display: flex;
     justify-content: center;
-
     height: 300px;
 }
 
@@ -76,4 +75,50 @@
     text-align: center;
     height: 200px;
     display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .fourth-container {
+        
+    }
+
+    .pic-about-me {
+        flex-direction: column;
+    }
+
+    .about-me {
+
+        margin-left: 0px;
+    }
+
+    .pic {
+        margin-right: 0px;
+    }
+
+    .about-me {
+        font-size: 14px;
+    }
+
+    .trip {
+     flex-direction: column;
+      height: auto;
+
+    }
+
+    .trip-1 {
+        font-size: 14px;
+        height: 250px;
+        
+    }
+
+    .trip-pic {
+        height: 15px;
+    }
+
+    .text-journey {
+        height: 100px;
+        
+    }
+
 }

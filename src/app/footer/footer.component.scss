@@ -1,5 +1,5 @@
 .end-of-page {
-    margin-top: 100px;
+    
     height: 150px;
     width: 100%;
     background-color: white;
@@ -14,6 +14,7 @@
 .imp-privacy {
     cursor: pointer;
     text-decoration: none;
+    color: black;
    
 
    :hover { color: red;
@@ -23,5 +24,38 @@
 
 .in-git-xing {
     cursor: pointer;
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .end-of-page {
+        margin-top: 30px;
+        height: 100px;
+        flex-direction: column-reverse;
+        
+    }
+
+    .imp-privacy {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .in-git-xing {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .s-network {
+        height: 50px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
 
 }
