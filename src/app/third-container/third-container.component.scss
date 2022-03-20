@@ -28,7 +28,7 @@
 }
 .projects {
     display: flex;
-    
+   
     
     }
 
@@ -36,15 +36,54 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+   
 }
 
 .project {
     display: flex;
-        height: 300px;
-        width: 300px;
+       // height: 300px;
+   //     width: 300px;
         margin: 20px;
-        background-color: white;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+
+        -webkit-filter: brightness(1.5);
+        filter: brightness(1.5);
     }
+
+.project-container {
+    display: flex;
+    flex: 1;
+   height: 300px;
+   width: 300px;
+    margin: 0px;
+ position: relative;
+ 
+}
+
+.click-project {
+    
+    color: #FA2759;
+    background-color: white;
+    border: #FA2759 solid;
+    height: 70px;
+    width: 150px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 18px;
+    position: absolute;
+  
+  
+
+    &:hover {
+    background-color: #FA2759;
+    color: white;
+    }
+}
 
     @media only screen and (max-width: 900px) {
         .button-project {

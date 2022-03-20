@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThirdContainerComponent implements OnInit {
 
+  goTo(){
+    
+  }
   constructor() { }
 
   ngOnInit(): void {
