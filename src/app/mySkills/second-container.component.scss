@@ -1,0 +1,115 @@
+.second-container {
+   
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.skills-container {
+    display: flex;
+    flex-direction: column;  
+}
+
+.my-skills {
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.skills-container-three {
+    display: flex;
+   
+   
+}
+
+.logo-skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+  
+}
+
+.skill-box {
+
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.logo-container {
+
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -80px;
+    box-shadow: 0 0 3px 0 #e4e4e4;
+
+    img {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    
+.my-skills {
+margin-bottom: 30px;
+    
+}
+
+   .skill-box {
+       height: 70px;
+       width: 117px;
+       margin: 3px;
+       font-size: 14px;
+   }
+
+   .logo-container {
+       height: 50px;
+       width: 50px;
+       margin: -25px;
+
+       img {
+        height: 25px;
+    }
+   }
+    .logo-skills-container { 
+        margin: 20px 0px 20px 0px;
+    }
+
+
+
+
+
+}
+
