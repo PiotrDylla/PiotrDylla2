@@ -11,7 +11,7 @@ export class ThirdContainerComponent implements OnInit {
   constructor(public router: Router) { }
 
   goTo(){
-    window.location.href = "https://www.google.com"
+    window.location.href = '/ring-of-fire/';
     console.log("YES");
   }
 
